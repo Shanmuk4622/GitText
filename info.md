@@ -32,4 +32,16 @@ git checkout -b <-new branch name -> (create new branch ).
 git branch -d <-branch name-> (to delete branch).
 git push --set-upstream origin AdditionalFEatures, (to set upstream).
 
-nothing line./.
+nothing line
+>git branch (to check breanch).
+>git branch -M main (to rename branch to main)<cumpulsury>.
+>git checkout <-branch name-> (navigate t0 another branch).
+>git checkout -b <-new branch name -> (create new branch ).
+>git branch -d <-branch name-> (to delete branch).
+>git push --set-upstream origin AdditionalFEatures, (to set upstream)...
+
+# merge branch
+git diff <branch name>
+git merge <-branch name ->
+git pull origin main
+>>>>>>> feature
