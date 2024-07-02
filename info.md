@@ -45,3 +45,13 @@ git diff <branch name>
 git merge <-branch name ->
 git pull origin main
 >>>>>>> feature
+
+
+# Fixing mistake
+git log , to get all info of the commit
+1. staged changes (add ones)
+> git reset <-file name->
+2. commit (1)
+> git reset HEAD~1
+3. commit (more than 1)
+> git reset --hard <-commit hash-> (to get commit hash use git log)
