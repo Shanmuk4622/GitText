@@ -30,3 +30,4 @@ git branch -M main (to rename branch to main)<cumpulsury>
 git checkout <-branch name-> (navigate t0 another branch)
 git checkout -b <-new branch name -> (create new branch )
 git branch -d <-branch name-> (to delete branch)
+git push --set-upstream origin AdditionalFEatures, (to set upstream)
