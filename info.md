@@ -31,3 +31,8 @@ branches are used in different ways, it is very useful features, more people can
 >git checkout -b <-new branch name -> (create new branch ).
 >git branch -d <-branch name-> (to delete branch).
 >git push --set-upstream origin AdditionalFEatures, (to set upstream)...
+
+# merge branch
+git diff <branch name>
+git merge <-branch name ->
+git pull origin main
