@@ -15,3 +15,18 @@ add - commit - git remote add origin <-link->
 4. git branch  (checking branch)
 5. git branch -M main   (changing branch to main)
 6. git push origin main , But before that make sure your files are upto date
+"first time you use 
+git pust -u origin main
+from next time on wards you can use 
+git push"
+=> to do both add and commit in sigle time "git commit -am <messsage>" bot only if new fime not creeated 
+anlways checkk status by "git status"   
+
+# Branch Commands
+branches are used in different ways, it is very useful features, more people can modify code simultaneously and can combined together.
+
+git branch (to check breanch)
+git branch -M main (to rename branch to main)<cumpulsury>
+git checkout <-branch name-> (navigate t0 another branch)
+git checkout -b <-new branch name -> (create new branch )
+git branch -d <-branch name-> (to delete branch)
